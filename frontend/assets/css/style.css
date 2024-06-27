@@ -500,11 +500,8 @@ header .navbar ul li a:hover {
 }
 
 .skills .heading {
-  margin-top: 2rem;
+  margin-top: 6.5rem;
   margin-bottom: 1rem;
-}
-.skills .heading span {
-  color: rgb(255, 230, 0);
 }
 .skills .container {
   background: rgba(0, 0, 22, 0);
@@ -516,8 +513,8 @@ header .navbar ul li a:hover {
 }
 .skills .container .topic {
   margin-bottom: 0.5rem;
-  margin-top: 1rem;
-  font-size: 2rem;
+  margin-top: 0.9rem;
+  font-size: 1.8rem;
 }
 .skills .container .row {
   display: grid;
@@ -527,7 +524,7 @@ header .navbar ul li a:hover {
 }
 .skills .container .bar {
   /* margin-bottom: 1.1rem; */
-  padding: 6px;
+  padding: 5px;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(49, 5, 68, 0.2);
   background: #370e58;
