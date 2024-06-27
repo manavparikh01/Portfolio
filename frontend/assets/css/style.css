@@ -143,7 +143,7 @@ header .navbar ul li a:hover {
 #menu {
   font-size: 3rem;
   cursor: pointer;
-  color: rgb(24, 2, 63);
+  color: #fff;
   display: none;
 }
 @media (max-width: 768px) {
@@ -158,7 +158,7 @@ header .navbar ul li a:hover {
     height: 100%;
     text-align: left;
     align-items: flex-start;
-    background-color: #0e0f31;
+    background-color: #000;
   }
   header .navbar ul {
     flex-flow: column;
@@ -183,7 +183,7 @@ header .navbar ul li a:hover {
     padding: 1rem;
     color: #fff;
     border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #011aff;
+    border-bottom: 0.5rem solid linear-gradient(90deg, #c750f2, #5690f0, #76e4c1);
   }
   .fa-times {
     transform: rotate(180deg);
@@ -226,7 +226,7 @@ header .navbar ul li a:hover {
   margin-top: 6rem;
 }
 .home .image {
-  flex: 1 1 40rem;
+  flex: 1 3 40rem;
   z-index: 1;
 }
 .home .image img {
